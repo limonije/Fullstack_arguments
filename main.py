@@ -42,8 +42,8 @@ force(1.0, 'sun')
 
 def pull(m1, m2, d):
     gravitational_constant = 6.674 * (10 ** -11)
-    gravitional_pull = gravitational_constant * ((m1 * m2) / d ** 2)
-    return gravitional_pull
+    gravitational_pull = gravitational_constant * ((m1 * m2) / d ** 2)
+    return gravitational_pull
 
 
 pull(0.1, (5.972 * (10 ** 24)), (6.371 * 10 ** 6))
